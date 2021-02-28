@@ -6,12 +6,12 @@ Primes can be calculated in a max range of 1000.
 ## Getting started
 
 Clone the directory and run:
--npm install
--npm start
+* npm install
+* npm start
 
 Tests can be run with:
--npm test
+* npm test
 
-### `notes`
+### `Notes`
 
--requires node.js
+Requires node.js
