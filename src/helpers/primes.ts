@@ -34,8 +34,5 @@ export const getPrimesAsDisplayNumbers = (start: number, end: number): DisplayNu
         .map(toDisplayNumber)
         .slice(start, end + 1);
 
-export const getPrimes = async (start: number, end: number): Promise<DisplayNumber[]> => {
-    const primes = await getPrimesAsDisplayNumbers(start, end);
-
-    return primes;
-};
+export const getPrimes = async (start: number, end: number): Promise<DisplayNumber[]> =>
+    getPrimesAsDisplayNumbers(start, end);
