@@ -1,6 +1,6 @@
 # Primes App
 
-Calculates prime numbers in a given range witha lower bound of 1 and upper bound of 10,000,000.
+Calculates prime numbers in a given range with a lower bound of 1 and upper bound of 10,000,000.
 Primes can be calculated in a max range of 1000.
 
 ## Getting started
