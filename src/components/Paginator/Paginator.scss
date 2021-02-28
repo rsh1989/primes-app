@@ -1,0 +1,74 @@
+@import '../../styles/variables.scss';
+
+.paginator {
+    display: inline-flex;
+    align-items: center;
+    margin-bottom: 10px;
+    background-color: $blue;
+
+    &__button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: none;
+        border-radius: 50%;
+        width: 25px;
+        height: 25px;
+        color: $white;
+        background-color: $blue;
+        cursor: pointer;
+
+        &:not(:last-child) {
+            margin-right: 5px;
+        }
+
+        &:focus {
+            outline: none;
+            color: $blue;
+            background-color: $white;
+        }
+    }
+
+    &__decrement_button {
+        width: 35px;
+        height: 35px;
+        margin-right: 5px;
+        border-top: none;
+        border-right: 1px solid $white;
+        border-bottom: none;
+        border-left: none;
+        color: $white;
+        background-color: $blue;
+        cursor: pointer;
+
+        &:focus {
+            border: 1px solid $blue;
+            outline: none;
+            color: $blue;
+            background-color: $white;
+        }
+    }
+
+    &__increment_button {
+        width: 35px;
+        height: 35px;
+        border-top: none;
+        border-right: none;
+        border-bottom: none;
+        border-left: 1px solid $white;
+        color: $white;
+        background-color: $blue;
+        cursor: pointer;
+
+        &:focus {
+            border: 1px solid $blue;
+            outline: none;
+            color: $blue;
+            background-color: $white;
+        }
+    }
+
+    &--selected {
+        border: 1px solid $white;
+    }
+}

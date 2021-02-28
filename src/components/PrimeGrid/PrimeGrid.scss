@@ -1,0 +1,28 @@
+@import '../../styles/variables.scss';
+
+.prime_grid {
+    margin-top: 75px;
+    &__table {
+        display: grid;
+        width: 100%;
+        max-width: $desktop-width;
+        grid-template-columns: repeat(10, 1fr);
+        border: 1px solid $black;
+        border-radius: 4px;
+    }
+
+    &__cell {
+        text-align: center;
+        padding: 10px;
+        height: 80px;
+        line-height: 80px;
+
+        &--prime {
+            width: 100%;
+            color: $white;
+            background-color: $maroon;
+            border-radius: 50%;
+            font-weight: bold;
+        }
+    }
+}
